@@ -86,9 +86,9 @@ DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'example',  # Replace with your actual database name
-        'USER': 'root',     # Replace with your MySQL username
-        'PASSWORD': 'root',  # Replace with your MySQL password
-        'HOST': 'localhost',           # Keep as 'localhost' if running MySQL locally
+        'USER': 'loginadmin@my-django-mysql',     # Replace with your MySQL username
+        'PASSWORD': 'Admin@123',  # Replace with your MySQL password
+        'HOST': 'my-django-mysql.mysql.database.azure.com',           # Keep as 'localhost' if running MySQL locally
         'PORT': '3306',                # Default MySQL port
         'OPTIONS': {
             'sql_mode': 'STRICT_TRANS_TABLES',
