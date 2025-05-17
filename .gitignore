@@ -1,3 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.sqlite
+*.json
+
+# If your settings/local.py shouldn't be shared
+settings/local.py
+
+# Media and static files (optional - if generated or deployed separately)
+media/
+staticfiles/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Mac system files
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Pip and wheel cache
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# mypy
+.mypy_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# dotenv
+.env
 *.log 
 bin/ 
 obj/ 
